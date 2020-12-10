@@ -1,29 +1,307 @@
 <!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="utf-8" />
-    <title>Chat</title>
-    <meta name="description" content="Chat" />
-    <meta name="keywords" content="blog, opowiadania, historie, filmiki, youtube, najciekawsze blogi" />
-    <meta http-equiv="X-UA-Compatebile" content="IE-edge,chrome=1" />
+<html>
 
-    <!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-    var _smartsupp = _smartsupp || {};
-    _smartsupp.key = 'e3eb85f9951d620f88c10877f11cb57b2f2201b6';
-    window.smartsupp||(function(d) {
-      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-      c.type='text/javascript';c.charset='utf-8';c.async=true;
-      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-    })(document);
-    </script>
+    <head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noxtal's Cyberworld</title>
+<meta name="description" content="Hey, I'm Noxtal! I'm a young CTF player and pentester, come check out my blog. On it, I post about everything I like but mostly detailed writeups about cybersecurity challenges I liked for beginners to learn.">
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/jquery.mmenu.all.css" />
+
+<!-- Favicons generated at http://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/favicons/manifest.json">
+<link rel="shortcut icon" href="/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<script data-ad-client="ca-pub-6140612341069656" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f07cbdc7e5d39c3"></script>
+
+
+
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Noxtal’s Cyberworld" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hey, I’m Noxtal! I’m a young CTF player and pentester, come check out my blog. On it, I post about everything I like but mostly detailed writeups about cybersecurity challenges I liked for beginners to learn." />
+<meta property="og:description" content="Hey, I’m Noxtal! I’m a young CTF player and pentester, come check out my blog. On it, I post about everything I like but mostly detailed writeups about cybersecurity challenges I liked for beginners to learn." />
+<link rel="canonical" href="https://noxtal.com//" />
+<meta property="og:url" content="http://noxtal.com//" />
+<meta property="og:site_name" content="Noxtal’s Cyberworld" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Noxtal’s Cyberworld" />
+<meta name="twitter:site" content="@noxtal_" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"Noxtal’s Cyberworld","sameAs":["https://twitter.com/noxtal_","https://noxtal.com/","https://github.com/noxtal"],"url":"http://noxtal.com//","description":"Hey, I’m Noxtal! I’m a young CTF player and pentester, come check out my blog. On it, I post about everything I like but mostly detailed writeups about cybersecurity challenges I liked for beginners to learn.","name":"Noxtal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
 </head>
-<body background="img/tlo.jpg">
 
 
-</body>
-    
- 
+    <body>
+
+    <nav id="my-menu">
+  <div>
+    <p>Noxtal's Cyberworld</p>
+
+    <ul class="pages">
+      <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+      <li><a href="/posts/"><i class="fa fa-archive"></i> All Posts</a></li>
+      <li><a href="/search/"><i class="fa fa-search"></i> Search</a></li>
+      <li><a href="/random/"><i class="fa fa-random"></i> Random Post</a></li>
+      <li><a href="https://learn.noxtal.com/"><i class="fas fa-hat-wizard"></i> Learn Hacking</a></li>
+    </ul>
+
+    <p class="links">
+  <a href="https://www.twitter.com/noxtal_" target="_new"><i class="fab fa-twitter"></i></a>
+  
+  
+  
+  
+  <a href="https://github.com/noxtal" target="_new"><i class="fab fa-github-alt"></i></a>
+  
+  
+  
+  <a href="/feed.xml" target="_new"><i class="fa fa-rss"></i></a>
+</p>
+
+  </div>
+</nav>
+<div class="menu-button" href="#menu"><i class="fa fa-bars"></i></div>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="container-fluid index">
+    <div class="row">
+
+        <div class="col-md-12 main content-panel">
+
+            <div class="gravatar">
+                <img src="https://avatars2.githubusercontent.com/u/44851191?s=500&d=mm" class="img-circle about-image" height="150" width="150"
+                    alt="Noxtal's Cyberworld" />
+            </div>
+
+            <h1 class="header author-header" itemprop="headline">Noxtal's Cyberworld</h1>
+
+            <div class="author-text">
+                Welcome! I'm Noxtal and this is my "Cyberworld". In other words, it is a website on which I post writeups for cybersecurity challenges, tutorials and offer good ways to learn programming and hacking. My goal is to make people from the coding and hacking community learn and share the things I create. I am not in any way a certified hacker or pentester, but I do that as a passion because of my young age. Enjoy your stay!
+            </div>
+
+            <p class="links">
+  <a href="https://www.twitter.com/noxtal_" target="_new"><i class="fab fa-twitter"></i></a>
+  
+  
+  
+  
+  <a href="https://github.com/noxtal" target="_new"><i class="fab fa-github-alt"></i></a>
+  
+  
+  
+  <a href="/feed.xml" target="_new"><i class="fa fa-rss"></i></a>
+</p>
+
+        </div>
+        <div class="col-md-12 main content-panel">
+
+            <div class="articles">
+
+                <h2>Latest Articles</h2>
+
+                <ul>
+                    
+
+                    <li>
+                        <a href="/writeups/2020/12/03/ctflearn887/">CTFlearn 887 - Suspecious message</a>
+                        <small class="hidden-xs">December 3, 2020</small>
+                    </li>
+
+                    
+
+                    <li>
+                        <a href="/cheatsheets/2020/08/08/ultimate-koth-defense-guide/">The Ultimate KOTH Defense Guide</a>
+                        <small class="hidden-xs">August 8, 2020</small>
+                    </li>
+
+                    
+
+                    <li>
+                        <a href="/writeups/2020/08/02/hacktivitycon-template-shack/"><span class="__cf_email__" data-cfemail="90d8d0f3fbe4f9e6f9e4e9d3fffe">[email&#160;protected]</span> - Template Shack</a>
+                        <small class="hidden-xs">August 2, 2020</small>
+                    </li>
+
+                    
+
+                    <li>
+                        <a href="/cheatsheets/2020/07/30/essential-commands/">The Essentials - My Favorite Tools and Commands</a>
+                        <small class="hidden-xs">July 30, 2020</small>
+                    </li>
+
+                    
+
+                    <li>
+                        <a href="/cheatsheets/2020/07/24/hydra-cheatsheet/">THC Hydra Cheatsheet</a>
+                        <small class="hidden-xs">July 24, 2020</small>
+                    </li>
+
+                    
+
+                    <li>
+                        <a href="/cheatsheets/2020/07/13/nmap-cheatsheet/">Nmap Cheatsheet</a>
+                        <small class="hidden-xs">July 13, 2020</small>
+                    </li>
+
+                    
+
+                    <li>
+                        <a href="/writeups/2020/07/11/tryhackme-koth-lion/">TryHackMe King of the Hill - lion</a>
+                        <small class="hidden-xs">July 11, 2020</small>
+                    </li>
+
+                    
+
+                    <li>
+                        <a href="/writeups/2020/07/03/tryhackme-dogcat/">TryHackMe - Dogcat</a>
+                        <small class="hidden-xs">July 3, 2020</small>
+                    </li>
+
+                    
+
+                    <li>
+                        <a href="/writeups/2020/06/25/redpwn-static-pastebin/">redpwnCTF 2020 - static-pastebin</a>
+                        <small class="hidden-xs">June 25, 2020</small>
+                    </li>
+
+                    
+
+                    <li>
+                        <a href="/writeups/2020/06/16/tryhackme-koth-spacejam/">TryHackMe King of the Hill - Spacejam</a>
+                        <small class="hidden-xs">June 16, 2020</small>
+                    </li>
+
+                    
+                    <li>
+                        <small><i><a href="/posts/">more...</a></i></small>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+      </div>
+    </div>
+
+    <div class="footer clearfix">
+  <div class="col-md-6">
+    Based on <a href="https://github.com/jacobtomlinson/carte-noire">carte-noire</a> by <a href="https://twitter.com/_JacobTomlinson">Jacob Tomlinson</a>
+  </div>
+  <div class="col-md-6">
+    Made with <i class="fa fa-heart"></i> by <a href="https://noxtal.com/">Noxtal</a>
+  </div>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="/js/jquery.mmenu.min.all.js"></script>
+<script type="text/javascript">
+   $(document).ready(function() {
+      $("#my-menu").mmenu().on( "closed.mm", function() {
+            $(".menu-button").show();
+         });
+      $(".menu-button").click(function() {
+        $(".menu-button").hide();
+        $("#my-menu").trigger("open.mm");
+      });
+   });
+</script>
+
+
+<script type="text/javascript">
+
+  function setFontSize() {
+
+    var title, dateOfTitle, fontSizeOfTitle, listOfA, listOfSmall, listOfArticlesDiv, divWidth;
+
+    listOfArticlesDiv = document.getElementsByClassName("articles");
+
+    for (i = 0; i < listOfArticlesDiv.length; i++) {
+
+      listOfA = document.getElementsByClassName("articles")[i].getElementsByTagName("a");
+      listOfSmall = document.getElementsByClassName("articles")[i].getElementsByTagName("small");
+
+      divWidth = document.getElementsByClassName("articles")[i].offsetWidth;
+
+      for (k = 0; k < listOfSmall.length; k++) {
+
+        title = $(listOfA[k]);
+        dateOfTitle = $(listOfSmall[k]);
+
+        fontSizeOfTitle = startingFontSize;
+        title.css("font-size", fontSizeOfTitle);
+
+        while (title.width() + dateOfTitle.width() >= divWidth)
+          title.css("font-size", fontSizeOfTitle -= 0.5);
+
+      }
+    }
+  }
+
+  function getStartFontSize() {
+    try {
+      startingFontSize = parseInt($(document.getElementsByClassName("articles")[0].getElementsByTagName("a")[0]).css("font-size"));
+      setFontSize();
+      window.addEventListener('resize', setFontSize, true);
+    } catch (e) {}
+  }
+
+  $(document).ready(getStartFontSize);
+
+</script>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-167321483-1']);
+          _gaq.push(['_trackPageview']);
+  (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+    </body>
 </html>
