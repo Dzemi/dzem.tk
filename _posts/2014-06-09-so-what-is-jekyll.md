@@ -1,21 +1,15 @@
 ---
 layout:     post
-title:      So, What is Jekyll?
-date:       2014-06-09 12:32:18
-summary:    Transform your plain text into static websites and blogs. Simple, static, and blog-aware.
-categories: jekyll
-thumbnail: jekyll
+title:      Bot Discord
+date:       2020-10-12 15:35
+summary:    My discord bot.
+categories: Bot
+thumbnail: Bot
 tags:
- - about
- - jekyll
+ - discord
+ - bot
 ---
 
-Jekyll is a tool for transforming your plain text into static websites and
-blogs. It is simple, static, and blog-aware. Jekyll uses the
-[Liquid](http://docs.shopify.com/themes/liquid-basics) templating
-language and has builtin [Markdown](http://daringfireball.net/projects/markdown/)
-and [Textile](http://en.wikipedia.org/wiki/Textile_(markup_language)) support.
+Zapraszam do zapraszania mojego bota na discord!
+[Zaproś](https://discord.com/api/oauth2/authorize?client_id=717108818441666586&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize&scope=bot)
 
-It also ties in nicely to [Github Pages](https://pages.github.com/).
-
-Learn more about Jekyll on their [website](http://jekyllrb.com/).

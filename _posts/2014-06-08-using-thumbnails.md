@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      Using thumbnails
-date:       2014-06-08 12:32:18
-summary:    Using thumbnails in your Carte Noire articles.
-categories: jekyll
-thumbnail: jekyll
+title:      Jak stworzyć bota discord.
+date:       2020-12-10
+summary:    Tworzenie bota discord.
+categories: Bot
+thumbnail: zembatka
 tags:
- - thumbnails
- - carte noire
+ - bot 
+ - discord
 ---
 
 Carte Noire is designed to start each article with an all-white image as a
@@ -22,14 +22,14 @@ location (I use [Imgur][3]) and then you need to add the url to `_data/thumbnail
 with an associated keyword.
 
 ```
-jekyll: "http://i.imgur.com/aRQcGSi.png"
+bot: "https://i.imgur.com/w9Gs6Qw.png"
 ```
 
 You then add a `thumbnail` option to the article's frontmatter and provide the keyword
 for that thumbnail.
 
 ```
-thumbnail: jekyll
+thumbnail: bot
 ```
 
 This allows you to re-use thumbnails across multiple articles without having to
