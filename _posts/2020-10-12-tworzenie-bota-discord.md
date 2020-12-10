@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Jak stworzyć bota discord.
+title:      Jak stworzyć bota discord
 date:       2020-12-10
-summary:    Tworzenie bota discord.
+summary:    Tworzenie bota discord
 categories: Bot
 thumbnail: zembatka
 tags:

@@ -1,31 +1,29 @@
 ---
 layout:     post
-title:      Carte Noire in Action
+title:      MetaDane
 date:       2014-06-10 12:31:19
-summary:    See what the different elements looks like.
+summary:    W wielkim skrócie powiem wam co to są MetaDane.
 categories: jekyll
 thumbnail: cogs
 tags:
- - demo
- - action
- - carte
- - noire
+ - metadane
+ - dane
+ - tool
 ---
 
-**Note** - This article is a derivative of ["See pixyll in action"][1], taken from the lovely jekyll theme [pixyll][4].
+# Co to?
 
-All links are easy to [locate and discern](#), yet don't detract from the harmony
-of a paragraph. The _same_ goes for italics and __bold__ elements. Even the the strikeout
-works if <del>for some reason you need to update your post</del>. For consistency's sake,
-<ins>The same goes for insertions</ins>, of course.
+MetaDane to dane o danych. Są kluczem do uzyskania dostępu do danych badawczych, ich 
+zrozumienia i ponownego wykorzystania. Istnieją trzy główne typy metadanych:
+Metadane opisowe – dostarczają informacji niezbędnych do odszukania czy też identyfikacji zbioru danych.
 
-### Code, with syntax highlighting
+### Jak je wydobyć
 
-Code blocks use the [peppermint][2] theme.
+Aby wydobyć MetaDane użyjemy **ExifTool**
 
-{% highlight ruby %}
-class Awesome < ActiveRecord::Base
-  include EvenMoreAwesome
+Co to ExifTool? ExifTool to darmowy program typu open source do odczytu, pisania i manipulowania metadanymi
+obrazu, audio, wideo i PDF. Jest niezależny od platformy, dostępny zarówno jako biblioteka Perla, jak i 
+aplikacja wiersza poleceń.
 
   validates_presence_of :something
   validates :email, email_format: true
@@ -53,53 +51,17 @@ end
 </body>
 ```
 
-# Headings!
+## Używanie ExifTool
 
-They're responsive, and well-proportioned (in `padding`, `line-height`, `margin`, and `font-size`).
+Podstawowa komenda to: ```exiftool {plik}```
 
-##### They draw the perfect amount of attention
+Taka prosta a tyle potrafi. Z tego można teraz dużo wyciągnąć.
+Między innymi kiedy zrobiono zdjęcie, gdzie je zrobiono albo czy był używany fles.
 
-This allows your content to have the proper informational and contextual hierarchy. Yay.
+Ale niestety muszę wam powiedzieć że strony takie jak facebook usuwają te dane
+podczas pobierania.
 
-### There are lists, too
+### Edytacja
 
-  * Apples
-  * Oranges
-  * Potatoes
-  * Milk
-
-  1. Mow the lawn
-  2. Feed the dog
-  3. Dance
-
-### Images look great, too
-
-![Thumper](https://i.imgur.com/DMCHDqF.jpg)
-
-
-### Stylish blockquotes included
-
-You can use the markdown quote syntax, `>` for simple quotes.
-
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis porta mauris.
-
-### LaTeX support
-
-The default math delimiters are \$\$. Hence `$$ E = m \cdot c^2 $$` yields $$ E = m \cdot c^2 $$
-
-And here's something more fancy:
-
-$$ \zeta(s) = \frac{1}{\Gamma(s)} \int \limits_0^\infty x^{s-1} \sum_{n=1}^\infty e^{-nx} \mathrm{d}x = \frac{1}{\Gamma(s)} \int \limits_0^\infty \frac{x^{s-1}}{e^x - 1} \mathrm{d}x $$
-
-
-### There's more being added all the time
-
-Checkout the [Github repository][3] to request,
-or add, features.
-
-Happy writing.
-
-[1]: http://pixyll.com/jekyll/pixyll/2014/06/10/see-pixyll-in-action/
-[2]: https://noahfrederick.com/log/lion-terminal-theme-peppermint/
-[3]: https://github.com/jacobtomlinson/carte-noire
-[4]: http://pixyll.com/
+Za pomocą ExifTool można też edytować meta dane, ale po więcej zapraszam do <a href="https://www.youtube.com/watch?v=nkcqjpNsROs&ab_channel=Pasjainformatyki">Pasja informatyki</a>
+Również na stronę twórcy <a href="https://exiftool.org/">ExifTool</a> 
