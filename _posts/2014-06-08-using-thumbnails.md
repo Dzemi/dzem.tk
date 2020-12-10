@@ -12,7 +12,7 @@ tags:
 
 ## Pierwsze kroki
 Udaj się do portalu botów Discord i stwórz nową aplikację.
-<blockquote class="imgur-embed-pub" lang="en" data-id="1BlIs18"><a href="https://imgur.com/1BlIs18">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="https://i.imgur.com/1BlIs18.png" alt="Obraz">
 Będziesz chciał zanotować identyfikator klienta i sekret (oczywiście, że powinieneś zachować tajemnicę).
 Jednak to nie jest bot, tylko "Aplikacja". Musisz dodać bota pod zakładką "Bot".
 Zanotuj również token i zachowaj go w tajemnicy. W żadnym wypadku nie należy przypisywać tego klucza 
