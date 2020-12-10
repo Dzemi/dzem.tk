@@ -1,2 +1,1 @@
-#dzemi.github.io
-#This is my page !
+# This is a private project, you won't find anything cool here.
