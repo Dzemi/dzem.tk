@@ -51,25 +51,15 @@ The ```client.on ("wiadomość")``` blok będzie uruchamiany za każdym razem, g
 Ostatni wiersz loguje się z tokenem z portalu botów. Oczywiście, token na zrzucie ekranu jest fałszywy. Nigdy nie publikuj swojego tokena w Internecie.
 Skopiuj ten kod, wklej token u dołu i zapisz go jako ```index.js``` w dedykowanym folderze.
 
-## Font Awesome
+## Jak uruchomić Bot
 
-If jekyll can't find a corresponding image in your `thumbnail.yml` file then it
-will assume you want to use a Font Awesome icon instead. You can find the full
-list of Font Awesome icons [here][4].
+Aby uruchomić bota wystarczy wpisać ```node index.js```.
 
-So for example if your article is about android and you want to use the [android icon][5]
-from font awesome you can just specify the following in your frontmatter.
+## Jak zaprosić bota
+Ta część jest trudniejsza niż powinna być. Musisz wziąć ten URL:
+```https://discordapp.com/oauth2/authorize?client_id=CLIENTID&scope=bot```
+Zastąp CLIENTID swoim identyfikatorem klienta, znajdującym się na karcie ogólnych informacji na stronie aplikacji. Gdy to zrobisz, możesz podać link do znajomych, aby dodać ich do swoich serwerów.
+<img src="https://i.imgur.com/jAo3USG.png" alt="Obraz">
 
-```
-thumbnail: android
-```
-
-Then in the future if you decide you want to use your own android icon you can just
-add it to `_data/thumbnails.yml` which will override it for all articles using
-the android thumbnail.
-
-[1]: http://jekyllrb.com/docs/frontmatter/
-[2]: http://fortawesome.github.io/Font-Awesome/
-[3]: http://imgur.com/
-[4]: http://fortawesome.github.io/Font-Awesome/icons/
-[5]: http://fortawesome.github.io/Font-Awesome/icon/android/
+[Źródło][1]                                                                                                                                                            
+[1]: https://pl.if-koubou.com/articles/how-to/how-to-make-your-own-discord-bot.html
