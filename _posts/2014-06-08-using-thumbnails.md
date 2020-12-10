@@ -61,5 +61,4 @@ Ta część jest trudniejsza niż powinna być. Musisz wziąć ten URL:
 Zastąp CLIENTID swoim identyfikatorem klienta, znajdującym się na karcie ogólnych informacji na stronie aplikacji. Gdy to zrobisz, możesz podać link do znajomych, aby dodać ich do swoich serwerów.
 <img src="https://i.imgur.com/jAo3USG.png" alt="Obraz">
 
-[Źródło][1]                                                                                                                                                            
-[1]: https://pl.if-koubou.com/articles/how-to/how-to-make-your-own-discord-bot.html
+<a href="https://pl.if-koubou.com/articles/how-to/how-to-make-your-own-discord-bot.html">Źródło</a>
