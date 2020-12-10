@@ -25,7 +25,6 @@ Zalecamy również zainstalowanie narzędzia nodemon. Jest to aplikacja wiersza 
 
 ```
 npm i -g nodemon
-
 ```
 Potrzebujesz edytora tekstu. Możesz po prostu użyć notatnika, ale zalecamy Atom lub Visuald Studio Code.
 
