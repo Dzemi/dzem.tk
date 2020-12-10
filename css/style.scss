@@ -1,5 +1,4 @@
----
----
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
@@ -184,32 +183,10 @@ ul {
 		color: $twitter;
 	}
 
-	.fa-linkedin:hover {
-		color: $linkedin;
-	}
-	
-	.fa-xing:hover {
-		color: $xing;
-	}
-
-	.fa-google-plus:hover {
-		color: $google-plus;
-	}
-	
-	.fa-facebook:hover {
-		color: $facebook;
-	}
-
 	.fa-github-alt:hover {
 		color: $github;
 	}
 
-	.fa-stack-overflow:hover {
-		color: $stack-overflow;
-	}
-	
-	.fa-instagram:hover {
-		color: $instagram;
 	}
 	
 	.fa-reddit-alien:hover {
@@ -219,7 +196,7 @@ ul {
 	.fa-rss:hover {
 		color: $rss;
 	}
-}
+
 
 /* Index */
 
@@ -722,11 +699,11 @@ ul {
 
 		}
 
-		.comments {
+		 
 		}
 
 	}
-}
+
 
 .related {
 	margin-top: 50px;
