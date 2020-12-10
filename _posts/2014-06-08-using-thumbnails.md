@@ -10,20 +10,26 @@ tags:
  - discord
 ---
 
-Carte Noire is designed to start each article with an all-white image as a
-thumbnail. These are created by adding a `thumbnail` parameter to the article's
-[YAML frontmatter][1]. This thumbnail parameter is processed in one of two ways,
-images specified in `_data/thumbnails.yml` or using [Font Awesome][2].
+## Pierwsze kroki
+Udaj się do portalu botów Discord i stwórz nową aplikację.
+<blockquote class="imgur-embed-pub" lang="en" data-id="1BlIs18"><a href="https://imgur.com/1BlIs18">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+Będziesz chciał zanotować identyfikator klienta i sekret (oczywiście, że powinieneś zachować tajemnicę).
+Jednak to nie jest bot, tylko "Aplikacja". Musisz dodać bota pod zakładką "Bot".
+Zanotuj również token i zachowaj go w tajemnicy. W żadnym wypadku nie należy przypisywać tego klucza 
+do Github. Twój bot zostanie zhakowany prawie natychmiast.
+## Instalacja
 
-## Images
+Aby uruchomić kod JavaScript poza stroną internetową, potrzebujesz węzła. Pobierz, zainstaluj i upewnij się, że działa w terminalu (lub w wierszu poleceń, ponieważ wszystko to powinno działać w systemach Windows). Domyślne polecenie to "węzeł".
 
-To use your own custom images as a thumbnail you must upload them to a web available
-location (I use [Imgur][3]) and then you need to add the url to `_data/thumbnail.yml`
-with an associated keyword.
+Zalecamy również zainstalowanie narzędzia nodemon. Jest to aplikacja wiersza poleceń, która monitoruje kod twojego bota i automatycznie uruchamia się po zmianach. Możesz go zainstalować, uruchamiając następujące polecenie:
 
 ```
-bot: "https://i.imgur.com/w9Gs6Qw.png"
+npm i -g nodemon
+
 ```
+Potrzebujesz edytora tekstu. Możesz po prostu użyć notatnika, ale zalecamy Atom lub Visuald Studio Code.
+
+Oto nasz "Hello World":
 
 You then add a `thumbnail` option to the article's frontmatter and provide the keyword
 for that thumbnail.
