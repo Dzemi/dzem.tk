@@ -23,8 +23,7 @@ layout: default
       </div>
       {% endif %}
 
-      <h1 class="header" itemprop="name">{{ page.title }}</h1>
-
+      <h1 class="header" itemprop="name">{{ page.title }}</h1
       <div class="author">
         <small><i>
           {% if page.author %}
@@ -86,8 +85,8 @@ layout: default
 
         {% if site.addthis_id %}
         <div class="share">
-          <!-- Go to www.addthis.com/dashboard to customize your tools --> 
-          <div class="addthis_inline_share_toolbox"></div
+          <!-- Go to www.addthis.com/dashboard to customize your tools -->
+          <div class="addthis_sharing_toolbox"></div>
         </div>
         {% endif %}
 
@@ -105,17 +104,18 @@ layout: default
       {% if site.twitter_username and site.disqus_account %}
       <div class="content-panel feedback">
         I <i class="fa fa-heart"></i> feedback.<br />
-        Let me know what you think of this article on twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> or leave a comment below!
+        Wbij na mojego twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> albo zostaw komentarz.
       </div>
       {% elsif site.twitter_username %}
       <div class="content-panel feedback">
         I <i class="fa fa-heart"></i> feedback.<br />
-        Let me know what you think of this article on twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>!
+        Wbij na mojego twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>!
       </div>
       {% elsif site.disqus_account %}
       <div class="content-panel feedback">
         I <i class="fa fa-heart"></i> feedback.<br />
-        Let me know what you think of this article in the comment section below!
+        Daj mi znać, co myślisz o tym artykule w sekcji komentarzy poniżej!
+
       </div>
       {% endif %}
 
@@ -143,7 +143,7 @@ layout: default
              {% else %}
               {{ post.excerpt | strip_html | truncatewords:30 }}
              {% endif %}
-            <a href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">kontynuuj czytanie.</a>
           </div>
         {% endfor %}
         <hr />
@@ -165,25 +165,6 @@ layout: default
         </div>
       </div>
       {% endif %}
-
-      <div class="content-panel related">
-        {% for post in site.posts limit:1 %}
-          <div class="related-header">
-            <a href="{{ site.baseurl }}{{ post.url }}">Latest Article</a>
-          </div>
-          <div class="title">
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          </div>
-          <div class="excerpt">
-             {% if post.summary %}
-              {{ post.summary | strip_html | truncatewords:30 }}
-             {% else %}
-              {{ post.excerpt | strip_html | truncatewords:30 }}
-             {% endif %}
-            <a href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
-          </div>
-        {% endfor %}
-      </div>
 
     </div>
 
