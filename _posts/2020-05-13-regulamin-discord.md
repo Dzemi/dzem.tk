@@ -1,5 +1,6 @@
 ---
-layout:     default
+layout:     post
+recommended: false
 title:      Regulamin Discord S&D
 date:       2020-05-13 20:00
 summary:    Regulamin Discord S&D
