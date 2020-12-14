@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Regulamin Discord S&D
-date:       Teraz
+date:       2020-05-13 20:00
 summary:    Regulamin Discord S&D
 categories: Discord
 thumbnail: Discord
