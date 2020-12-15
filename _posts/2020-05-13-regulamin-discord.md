@@ -4,7 +4,7 @@ title:      Regulamin Discord S&D
 date:       2020-05-13 20:00
 summary:    Regulamin Discord S&D
 categories: Discord
-thumbnail: Discord
+thumbnail: s&d
 tags:
  - regulamin
  - discord
