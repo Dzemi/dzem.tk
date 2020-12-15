@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Regulamin Discord S&D
-date:       2020-31-12 23:59
+date:       2020-14-12 23:59
 summary:    Regulamin Discord S&D
 categories: Discord
 thumbnail: s&d
@@ -13,7 +13,7 @@ tags:
 
 # Regulamin serwera Discord — S&D
 
-_Zaktualizowano 13.05.2020_
+_Zaktualizowano 14.12.2020_
 
 Korzystając z serwera S&D Discord, zgadzasz się na te Warunki. Jeśli nie zgadzasz się z którymkolwiek z warunków, nie możesz korzystać z serwera S&D Discord.
 
