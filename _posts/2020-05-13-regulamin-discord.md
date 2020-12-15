@@ -34,7 +34,7 @@ Korzystając z serwera S&D Discord, zgadzasz się na te Warunki. Jeśli nie zgad
 
 - Regulamin może w każdej chwili ulec zmianie bez wcześniejszego informowania o tym.
 
-- Jeśli nie rozumiesz któregoś z podpunktów regulaminu — skontaktuj się z administracją w kanale pomocniczym, albo na stronie serwera.
+- Jeśli nie rozumiesz któregoś z podpunktów regulaminu — skontaktuj się z administracją w kanale pomocniczym.
 
 - Wszelkie błędy i niedociągnięcia związane z funkcjonowaniem serwera należy natychmiast zgłaszać administracji.
 
@@ -112,8 +112,6 @@ Korzystając z serwera S&D Discord, zgadzasz się na te Warunki. Jeśli nie zgad
 
 ## System rang
 
-- Tylko osoby posiadające aktywne konto S&D mogą ubiegać się o rangę.
-
 - Rangi mogą zostać dodane jak i odebrane przez członka administracji, bądź bota.
 
 - Każda ranga posiada pewne wymagania.
@@ -168,7 +166,7 @@ Korzystając z serwera S&D Discord, zgadzasz się na te Warunki. Jeśli nie zgad
 
 - Członek administracji który nie przestrzega regulaminu administracji, zachowuje się niewłaściwie lub godzi w dobre imię serwera, może zostać zdegradowany lub wyrzucony z administracji.
 
-- Członek administracji nie może zostać wyrzucony z administracji bez podania powodu (niedot. Rangi Magnus / Master).
+- Członek administracji nie może zostać wyrzucony z administracji bez podania powodu (niedot. Rangi CEO).
 
 - Właściciel ma prawo do odebrania rangi adminowi bądź innemu użytkownikowi Discord bez podania powodu.
 
@@ -204,7 +202,7 @@ Korzystając z serwera S&D Discord, zgadzasz się na te Warunki. Jeśli nie zgad
 
 ## Skargi, zażalenia i odwołania
 
-- Skargi i zażalenia można składać u osób odpowiedzialnych za serwer lub w odpowiednim dziale na stronie serwera.
+- Skargi i zażalenia można składać u osób odpowiedzialnych za serwer lub w odpowiednim kanale na serwerze.
 
 - Odwołanie od decyzji administratora można złożyć na stronie serwera.
 
