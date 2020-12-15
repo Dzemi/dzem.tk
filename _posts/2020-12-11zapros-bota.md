@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Bot Discord
-date:       2020-10-12 15:35
+date:       2020-12-11 15:35
 summary:    My discord bot
 categories: Bot
 thumbnail: Bot
