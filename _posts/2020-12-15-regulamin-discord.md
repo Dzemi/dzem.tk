@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Regulamin Discord S&D
-date:       2020-12-15 11:00
+date:       2020-12-15 
 summary:    Regulamin Discord S&D
 categories: Discord
 thumbnail: s&d
