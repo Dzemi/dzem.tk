@@ -19,7 +19,7 @@ reddit_username:
 stackoverflow_link: https://dzem.tk/
 
 # Footer
-footer_left: "By <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_left: "By <i class=\"fa fa-heart\"></i><a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
 
 
 # Build settings
