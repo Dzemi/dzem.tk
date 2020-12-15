@@ -13,7 +13,7 @@ tags:
 
 # Regulamin serwera Discord — S&D
 
-_Zaktualizowano 14.12.2020_
+_Zaktualizowano 15.12.2020_
 
 Korzystając z serwera S&D Discord, zgadzasz się na te Warunki. Jeśli nie zgadzasz się z którymkolwiek z warunków, nie możesz korzystać z serwera S&D Discord.
 
