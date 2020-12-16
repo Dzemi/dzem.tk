@@ -1,3 +1,5 @@
+EN:
+
 This theme is Open Source under the GPLv3 license as stated below. The theme is intended
 to be used for creating jekyll blogs where the author is expected to retain copyright
 on their content and therefore the following files and directories are not included in
@@ -20,3 +22,28 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+PL:
+
+Ten motyw jest Open Source na licencji GPLv3, jak określono poniżej. Temat jest przeznaczony
+do tworzenia blogów jekyll, w przypadku których od autora oczekuje się zachowania praw autorskich
+na ich zawartość, w związku z czym następujące pliki i katalogi nie są uwzględnione w
+licencja GPLv3:
+
+ * _config.yml
+ * _data/
+ * _drafts/
+ * _posts/
+
+Ten program jest wolnym oprogramowaniem: możesz go rozpowszechniać i / lub modyfikować
+to na warunkach Powszechnej Licencji Publicznej GNU opublikowanej przez
+Free Software Foundation, albo wersja 3 Licencji, albo
+(do wyboru) dowolna późniejsza wersja.
+
+Ten program jest rozpowszechniany z nadzieją, że będzie przydatny,
+ale BEZ ŻADNEJ GWARANCJI; nawet bez domniemanej gwarancji
+WARTOŚĆ HANDLOWA lub PRZYDATNOŚĆ DO OKREŚLONEGO CELU. Zobacz
+Licencja GNU General Public License zawiera więcej szczegółów.
+
+Powinieneś otrzymać kopię Powszechnej Licencji Publicznej GNU
+wraz z tym programem. Jeśli nie, zobacz <http://www.gnu.org/licenses/>.
