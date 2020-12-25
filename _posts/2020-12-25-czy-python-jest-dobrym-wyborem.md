@@ -20,15 +20,14 @@ Pierwszy program wyświetlający napis „Hello World”
 
 
     Java
-```public class Main {
+public class Main {
   public static void main(String[] args) {
     System.out.println("hello world");
   }
 }
-```
 
     Python
-```print("hello world")```
+print("hello world")
 
 ## 2. Python jest szybki
 I nie, nie podejmuję szybkości jako tematu porównania Pythona do innych języków programowania, zaraz będą jęki, że przecież są szybsze. Jest szybki na tle języków interpretowanych, ale nie to jest ważne dla osoby początkującej.
