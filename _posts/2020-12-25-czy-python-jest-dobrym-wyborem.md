@@ -20,11 +20,12 @@ Pierwszy program wyświetlający napis „Hello World”
 
 
     Java
-```public class Main {```
-```  public static void main(String[] args) {```
-```    System.out.println("hello world");```
- ``` }```
-```}```
+```public class Main {
+  public static void main(String[] args) {
+    System.out.println("hello world");
+  }
+}
+```
 
     Python
 ```print("hello world")```
