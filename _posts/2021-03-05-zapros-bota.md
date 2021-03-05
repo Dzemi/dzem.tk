@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      Bot Discord
-date:       2020-12-11 15:35
-summary:    My discord bot
+date:       2021-03-05 15:35
+summary:    Zapros mojego bota discord
 categories: Bot
 thumbnail: Bot
 tags:
