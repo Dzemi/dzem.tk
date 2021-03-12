@@ -41,19 +41,19 @@ d!queue - Aby pokazać kolejke.
 
 d!remove - Aby usunąć daną muzykę z kolejki.
 
-d!resume - Aby wznawić muzykę.
+d!resume - Aby wznawić utwór.
 
-d!search - Aby wyszukać muzykę.
+d!search - Aby wyszukać utwór.
 
-d!shuffle - Aby włączyć losową muzykę z kolejki.
+d!shuffle - Aby włączyć losowy utwór z kolejki.
 
-d!skip - Aby zeskipować muzykę.
+d!skip - Aby zeskipować utwór.
 
 d!skipto - Aby zskipować dany utwór.
 
-d!stop - Aby zatrzymać muzykę i wyczyścić kolejkę.
+d!stop - Aby zatrzymać utwór i wyczyścić kolejkę.
 
-d!vol - Aby zmienić głośność muzyki.
+d!vol - Aby zmienić głośność utworu.
 
 d!zapros - Aby dodać bota na swój serwer.
 
